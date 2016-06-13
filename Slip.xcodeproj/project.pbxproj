@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6E9D2D11B6810B00401A03 /* SlipGrammar.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9D2C11B6810B00401A03 /* SlipGrammar.c */; };
+		1F730869119302FB00801E88 /* SlipCompile.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F73084B119302FB00801E88 /* SlipCompile.c */; };
+		1F73086A119302FB00801E88 /* SlipDictionary.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F73084D119302FB00801E88 /* SlipDictionary.c */; };
+		1F73086B119302FB00801E88 /* SlipEnvironment.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F73084F119302FB00801E88 /* SlipEnvironment.c */; };
+		1F73086C119302FB00801E88 /* SlipEvaluate.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730851119302FB00801E88 /* SlipEvaluate.c */; };
+		1F73086E119302FB00801E88 /* SlipMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730855119302FB00801E88 /* SlipMain.c */; };
+		1F73086F119302FB00801E88 /* SlipMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730857119302FB00801E88 /* SlipMemory.c */; };
+		1F730870119302FB00801E88 /* SlipNative.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730859119302FB00801E88 /* SlipNative.c */; };
+		1F730871119302FB00801E88 /* SlipPool.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F73085B119302FB00801E88 /* SlipPool.c */; };
+		1F730872119302FB00801E88 /* SlipPrint.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F73085D119302FB00801E88 /* SlipPrint.c */; };
+		1F730873119302FB00801E88 /* SlipRead.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F73085F119302FB00801E88 /* SlipRead.c */; };
+		1F730874119302FB00801E88 /* SlipScan.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730861119302FB00801E88 /* SlipScan.c */; };
+		1F730875119302FB00801E88 /* SlipStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730864119302FB00801E88 /* SlipStack.c */; };
+		1F730876119302FB00801E88 /* SlipTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730866119302FB00801E88 /* SlipTest.c */; };
+		1F730877119302FB00801E88 /* SlipThread.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F730867119302FB00801E88 /* SlipThread.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F6B127A129A60260010DF8F /* mcSlip.scm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcSlip.scm; sourceTree = "<group>"; };
+		1F6B127B129A60260010DF8F /* Primes.scm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Primes.scm; sourceTree = "<group>"; };
+		1F6B127D129A60260010DF8F /* QuickSort.scm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuickSort.scm; sourceTree = "<group>"; };
+		1F6B1280129A602F0010DF8F /* mcSlip.scm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcSlip.scm; sourceTree = "<group>"; };
+		1F6B1281129A602F0010DF8F /* Primes.scm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Primes.scm; sourceTree = "<group>"; };
+		1F6B1282129A602F0010DF8F /* QuickSort.scm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuickSort.scm; sourceTree = "<group>"; };
+		1F6E9D2C11B6810B00401A03 /* SlipGrammar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipGrammar.c; sourceTree = "<group>"; };
+		1F73084B119302FB00801E88 /* SlipCompile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipCompile.c; sourceTree = "<group>"; };
+		1F73084C119302FB00801E88 /* SlipCompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipCompile.h; sourceTree = "<group>"; };
+		1F73084D119302FB00801E88 /* SlipDictionary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipDictionary.c; sourceTree = "<group>"; };
+		1F73084E119302FB00801E88 /* SlipDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipDictionary.h; sourceTree = "<group>"; };
+		1F73084F119302FB00801E88 /* SlipEnvironment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipEnvironment.c; sourceTree = "<group>"; };
+		1F730850119302FB00801E88 /* SlipEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipEnvironment.h; sourceTree = "<group>"; };
+		1F730851119302FB00801E88 /* SlipEvaluate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipEvaluate.c; sourceTree = "<group>"; };
+		1F730852119302FB00801E88 /* SlipEvaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipEvaluate.h; sourceTree = "<group>"; };
+		1F730855119302FB00801E88 /* SlipMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipMain.c; sourceTree = "<group>"; };
+		1F730856119302FB00801E88 /* SlipMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipMain.h; sourceTree = "<group>"; };
+		1F730857119302FB00801E88 /* SlipMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipMemory.c; sourceTree = "<group>"; };
+		1F730858119302FB00801E88 /* SlipMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipMemory.h; sourceTree = "<group>"; };
+		1F730859119302FB00801E88 /* SlipNative.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipNative.c; sourceTree = "<group>"; };
+		1F73085A119302FB00801E88 /* SlipNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipNative.h; sourceTree = "<group>"; };
+		1F73085B119302FB00801E88 /* SlipPool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipPool.c; sourceTree = "<group>"; };
+		1F73085C119302FB00801E88 /* SlipPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipPool.h; sourceTree = "<group>"; };
+		1F73085D119302FB00801E88 /* SlipPrint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipPrint.c; sourceTree = "<group>"; };
+		1F73085E119302FB00801E88 /* SlipPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipPrint.h; sourceTree = "<group>"; };
+		1F73085F119302FB00801E88 /* SlipRead.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipRead.c; sourceTree = "<group>"; };
+		1F730860119302FB00801E88 /* SlipRead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipRead.h; sourceTree = "<group>"; };
+		1F730861119302FB00801E88 /* SlipScan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipScan.c; sourceTree = "<group>"; };
+		1F730862119302FB00801E88 /* SlipScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipScan.h; sourceTree = "<group>"; };
+		1F730863119302FB00801E88 /* SlipSlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipSlip.h; sourceTree = "<group>"; };
+		1F730864119302FB00801E88 /* SlipStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipStack.c; sourceTree = "<group>"; };
+		1F730865119302FB00801E88 /* SlipStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipStack.h; sourceTree = "<group>"; };
+		1F730866119302FB00801E88 /* SlipTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipTest.c; sourceTree = "<group>"; };
+		1F730867119302FB00801E88 /* SlipThread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlipThread.c; sourceTree = "<group>"; };
+		1F730868119302FB00801E88 /* SlipThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipThread.h; sourceTree = "<group>"; };
+		1F8CC5F0110B25DB0030FEF0 /* Slip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Slip; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE2BA9C11B452AF00002BC5 /* SlipGrammar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlipGrammar.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* cpSlip_c */ = {
+			isa = PBXGroup;
+			children = (
+				1F73084A119302FB00801E88 /* Slip.dir */,
+				1F6B1279129A60260010DF8F /* Release */,
+				1F6B127F129A602F0010DF8F /* Debug */,
+				1F8CC5F0110B25DB0030FEF0 /* Slip */,
+			);
+			name = cpSlip_c;
+			sourceTree = "<group>";
+		};
+		1F6B1279129A60260010DF8F /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				1F6B127A129A60260010DF8F /* mcSlip.scm */,
+				1F6B127B129A60260010DF8F /* Primes.scm */,
+				1F6B127D129A60260010DF8F /* QuickSort.scm */,
+			);
+			name = Release;
+			path = build/Release;
+			sourceTree = "<group>";
+		};
+		1F6B127F129A602F0010DF8F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				1F6B1280129A602F0010DF8F /* mcSlip.scm */,
+				1F6B1281129A602F0010DF8F /* Primes.scm */,
+				1F6B1282129A602F0010DF8F /* QuickSort.scm */,
+			);
+			name = Debug;
+			path = build/Debug;
+			sourceTree = "<group>";
+		};
+		1F73084A119302FB00801E88 /* Slip.dir */ = {
+			isa = PBXGroup;
+			children = (
+				1F6E9D2C11B6810B00401A03 /* SlipGrammar.c */,
+				1FE2BA9C11B452AF00002BC5 /* SlipGrammar.h */,
+				1F73084B119302FB00801E88 /* SlipCompile.c */,
+				1F73084C119302FB00801E88 /* SlipCompile.h */,
+				1F73084D119302FB00801E88 /* SlipDictionary.c */,
+				1F73084E119302FB00801E88 /* SlipDictionary.h */,
+				1F73084F119302FB00801E88 /* SlipEnvironment.c */,
+				1F730850119302FB00801E88 /* SlipEnvironment.h */,
+				1F730851119302FB00801E88 /* SlipEvaluate.c */,
+				1F730852119302FB00801E88 /* SlipEvaluate.h */,
+				1F730855119302FB00801E88 /* SlipMain.c */,
+				1F730856119302FB00801E88 /* SlipMain.h */,
+				1F730857119302FB00801E88 /* SlipMemory.c */,
+				1F730858119302FB00801E88 /* SlipMemory.h */,
+				1F730859119302FB00801E88 /* SlipNative.c */,
+				1F73085A119302FB00801E88 /* SlipNative.h */,
+				1F73085B119302FB00801E88 /* SlipPool.c */,
+				1F73085C119302FB00801E88 /* SlipPool.h */,
+				1F73085D119302FB00801E88 /* SlipPrint.c */,
+				1F73085E119302FB00801E88 /* SlipPrint.h */,
+				1F73085F119302FB00801E88 /* SlipRead.c */,
+				1F730860119302FB00801E88 /* SlipRead.h */,
+				1F730861119302FB00801E88 /* SlipScan.c */,
+				1F730862119302FB00801E88 /* SlipScan.h */,
+				1F730863119302FB00801E88 /* SlipSlip.h */,
+				1F730864119302FB00801E88 /* SlipStack.c */,
+				1F730865119302FB00801E88 /* SlipStack.h */,
+				1F730866119302FB00801E88 /* SlipTest.c */,
+				1F730867119302FB00801E88 /* SlipThread.c */,
+				1F730868119302FB00801E88 /* SlipThread.h */,
+			);
+			path = Slip.dir;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* Slip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "Slip" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slip;
+			productInstallPath = "$(HOME)/bin";
+			productName = cpSlip_c;
+			productReference = 1F8CC5F0110B25DB0030FEF0 /* Slip */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Slip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* cpSlip_c */;
+			productRefGroup = 08FB7794FE84155DC02AAC07 /* cpSlip_c */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* Slip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F730869119302FB00801E88 /* SlipCompile.c in Sources */,
+				1F73086A119302FB00801E88 /* SlipDictionary.c in Sources */,
+				1F73086B119302FB00801E88 /* SlipEnvironment.c in Sources */,
+				1F73086C119302FB00801E88 /* SlipEvaluate.c in Sources */,
+				1F73086E119302FB00801E88 /* SlipMain.c in Sources */,
+				1F73086F119302FB00801E88 /* SlipMemory.c in Sources */,
+				1F730870119302FB00801E88 /* SlipNative.c in Sources */,
+				1F730871119302FB00801E88 /* SlipPool.c in Sources */,
+				1F730872119302FB00801E88 /* SlipPrint.c in Sources */,
+				1F730873119302FB00801E88 /* SlipRead.c in Sources */,
+				1F730874119302FB00801E88 /* SlipScan.c in Sources */,
+				1F730875119302FB00801E88 /* SlipStack.c in Sources */,
+				1F730876119302FB00801E88 /* SlipTest.c in Sources */,
+				1F730877119302FB00801E88 /* SlipThread.c in Sources */,
+				1F6E9D2D11B6810B00401A03 /* SlipGrammar.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_CW_ASM_SYNTAX = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_PASCAL_STRINGS = YES;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_REUSE_STRINGS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = Slip;
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_C_LANGUAGE_STANDARD = ansi;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = Off;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OBJC_CALL_CXX_CDTORS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_REUSE_STRINGS = YES;
+				GCC_STRICT_ALIASING = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GENERATE_PROFILING_CODE = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INSTALL_PATH = /usr/local/bin;
+				MACH_O_TYPE = mh_execute;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = slip;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				STRIP_INSTALLED_PRODUCT = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_STRICT_ALIASING = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				LLVM_LTO = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "Slip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Slip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
